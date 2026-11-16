@@ -1,11 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include<stdio.h>
+#include<stdlib.h>
 int main()
 {
-    int a;
-    int *b = malloc(sizeof(a));
+	int *a=malloc(sizeof(int));
 
-    printf("%p", (void *)b);
+	scanf("%d",a);
+
+	printf("The value of a is %d",*a);
+
 
 }
+
