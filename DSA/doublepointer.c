@@ -12,10 +12,16 @@ int main()
 
 	while(left<right)
 	{
-		int *temp=left;
+		int temp=*left;
 		*left++=*right;
-		*right--=*temp;
+		*right--=temp;
 	}
+
+	for(int a=0;a<5;a++)
+	{
+		printf("%d ",arr[a]);
+
 
 }
 
+}
